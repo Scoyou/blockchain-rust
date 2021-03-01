@@ -8,4 +8,4 @@ cd blockchain-rust
 cargo run
 ```
 
-Tutorial credit goes to @encody and his GeekLaunch blockchain tutorial found at <https://www.youtube.com/playlist?list=PLwnSaD6BDfXL0RiKT_5nOIdxTxZWpPtAv>. 
+Tutorial credit goes to @encody and the GeekLaunch blockchain tutorial found at <https://www.youtube.com/playlist?list=PLwnSaD6BDfXL0RiKT_5nOIdxTxZWpPtAv>. 
