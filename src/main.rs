@@ -1,3 +1,13 @@
+use blockchainlib::*;
+
 fn main () {
-    println!("Hello, blockchain!");
+    let mut block = Block::new(0, 0, vec![0; 32], 0, "Genisis Block".to_owned());
+    println!("{:?}", &block);
+
+    let h = block.hash();
+    println!("{:?}", &h);
+
+    block.hash = h;
+    println!("{:?}", &block);
+
 }
